@@ -32,15 +32,15 @@ define(function() {
         maturityData;
 
     /* CONSTANTS */
-    CATEGORY_COUNT = 5; // currently unused
+    // CATEGORY_COUNT = 5; // currently unused
 
-    CATEGORIES = [
-        "Development",
-        "Continuous Integration",
-        "Provisioning",
-        "Management",
-        "Observability"
-    ];
+    // CATEGORIES = [
+    //     "Development",
+    //     "Continuous Integration",
+    //     "Provisioning",
+    //     "Management",
+    //     "Observability"
+    // ];
 
     MATURITY_LEVELS = [{
         score: -2,
