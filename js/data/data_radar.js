@@ -32,15 +32,17 @@ define(function() {
         maturityData;
 
     /* CONSTANTS */
-    CATEGORY_COUNT = 6; // currently unused
+    CATEGORY_COUNT = 8; // currently unused
 
     CATEGORIES = [
-        "Build Management and Continuous Integration",  ///hacer push, cambiar datos de entrada revisar estructura.. pasar a repo falabella /// 
-        "Environments and Deployment",
-        "Release Management and Compliance",
-        "Testing",
-        "Data Management",
-        "Configuration Management"
+        "Integracion Continua",  ///hacer push, cambiar datos de entrada revisar estructura.. pasar a repo falabella /// 
+        "Garantia de Calidad",
+        "Administracion de configuraciones",
+        "Ambientes y Despliegues",
+        "Gestion de Datos",
+        "Arquitectura Técnica",
+        "Alineamiento Organizacional",
+        "Visibilidad"
     ];
 
     MATURITY_LEVELS = [{
@@ -94,10 +96,10 @@ define(function() {
     ID_AVERAGE_CATEGORIES = 100;
 
     /* User-level variables */
-    pageTitle = "CD Maturity Gap Analysis: Gerencia Middleware ";
+    pageTitle = "DevOps Maturity Model: Gerencia Middleware ";
     legendTitle = "Plataforma MDW Estado del Arte";
     averageTitle = "Average Maturity - All Systems";
-    referenceLink1 = "https://github.com/garystafford/cd-maturity-model";
+    referenceLink1 = "https://falabellafif.atlassian.net/wiki/x/IoHjKg";
     referenceLinkTitle1 = "CD Maturity Model";
     referenceLink2 = "https://github.com/garystafford/cd-maturity-model";
     referenceLinkTitle2 = "Gary A. Stafford - 2017 - Werick - 2019";
